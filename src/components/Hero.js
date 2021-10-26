@@ -6,6 +6,7 @@ import './App.css'
 import Dog from './Dog';
 import bg1 from '../images/bg1.jpg';
 import bg2 from '../images/bg2.jpg';
+import bg3 from '../images/bg3.jpg';
 
 
 
@@ -54,7 +55,7 @@ function Hero() {
             </div>
             <div className="carousel-item">
               {/* <svg className="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> */}
-              <img className="custom-img" src="https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZG9nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" height="70%" alt="bg3"/>
+              <img className="custom-img" src={bg3} alt="bg3"/>
               <div className="container">
                 <div className="carousel-caption text-end">
                   <h1>One more for good measure.</h1>

@@ -32,7 +32,6 @@ function Hero() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item">
-              {/* <svg className="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> */}
               <img className="custom-img" src={bg1} width="100%" height="100%" alt="bg1"/>
               <div className="container">
                 <div className="carousel-caption text-start">
@@ -43,7 +42,6 @@ function Hero() {
               </div>
             </div>
             <div className="carousel-item active">
-              {/* <svg className="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> */}
               <img className="custom-img" src={bg2} width="100%" height="100%" alt="bg2"/>
               <div className="container">
                 <div className="carousel-caption">
@@ -54,7 +52,6 @@ function Hero() {
               </div>
             </div>
             <div className="carousel-item">
-              {/* <svg className="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> */}
               <img className="custom-img" src={bg3} alt="bg3"/>
               <div className="container">
                 <div className="carousel-caption text-end">

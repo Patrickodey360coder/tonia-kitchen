@@ -25,9 +25,6 @@ function App() {
             <Route path="/contact">
               <Contact/>
             </Route>
-            <Route path="/dogs/:id">
-              <ViewDog/>
-            </Route>
             <Route>
               <NoMatch/>
             </Route>

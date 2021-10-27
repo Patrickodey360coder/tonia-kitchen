@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components/macro'
+import React from 'react';
+import styled from 'styled-components/macro';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './App.css'
+import './App.css';
 import Dog from './Dog';
 import bg1 from '../images/bg1.jpg';
 import bg2 from '../images/bg2.jpg';
@@ -14,10 +14,10 @@ function Hero() {
   const [dogs, setDogs] = useState([]);
 
   useEffect(()=> {
-    let api = "https://api.thedogapi.com/v1/breeds?limit=12&page=100?api_key=2c1958d5-790f-4725-87cc-7e59767ba77f"
+    let api = "https://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
     fetch(api)
       .then( res => res.json())
-      .then( result => setDogs(result))
+      .then( result => setDogs(result));
   },[]
   );
 
@@ -35,9 +35,9 @@ function Hero() {
               <img className="custom-img" src={bg1} width="100%" height="100%" alt="bg1"/>
               <div className="container">
                 <div className="carousel-caption text-start">
-                  <h1>Example headline.</h1>
-                  <p>Some representative placeholder content for the first slide of the carousel.</p>
-                  <p><Link className="btn btn-lg btn-primary" to="#">Sign up today</Link></p>
+                  <h2>Orhan Pamuk</h2>
+                  <p>Dogs do speak, but only to those who know how to listen</p>
+                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
                 </div>
               </div>
             </div>
@@ -45,9 +45,9 @@ function Hero() {
               <img className="custom-img" src={bg2} width="100%" height="100%" alt="bg2"/>
               <div className="container">
                 <div className="carousel-caption">
-                  <h1>Another example headline.</h1>
-                  <p>Some representative placeholder content for the second slide of the carousel.</p>
-                  <p><Link className="btn btn-lg btn-primary" to="#">Learn more</Link></p>
+                  <h2>Rodges A. Caras</h2>
+                  <p>Dogs are not our whole life, but they make our lives whole.</p>
+                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
                 </div>
               </div>
             </div>
@@ -55,9 +55,9 @@ function Hero() {
               <img className="custom-img" src={bg3} alt="bg3"/>
               <div className="container">
                 <div className="carousel-caption text-end">
-                  <h1>One more for good measure.</h1>
+                  <h2>One more for good measure.</h2>
                   <p>Some representative placeholder content for the third slide of this carousel.</p>
-                  <p><Link className="btn btn-lg btn-primary" to="#">Browse gallery</Link></p>
+                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
                 </div>
               </div>
             </div>

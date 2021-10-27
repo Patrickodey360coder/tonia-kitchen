@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Dog({id, name, bred_for, breed_group, life_span, temprament, origin, image}) {
   return (

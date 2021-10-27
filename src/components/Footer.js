@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <footer className="footer mt-auto py-3 bg-light">
+    <footer className="footer mt-auto py-3 bg-dark">
       <div className="container">
         <div className="text-muted text-center my-1">Developed by Patrick Odey</div>
         <div className="text-center">

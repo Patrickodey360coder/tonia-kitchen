@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NoMatch from "./components/NoMatch";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             </Route>
           </Switch>
         </Router>
+        <Footer />
       </Globalstyle>
     </>
   );

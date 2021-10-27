@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import './App.css';
 import Dog from './Dog';
 import bg1 from '../images/bg1.jpg';
@@ -36,8 +35,8 @@ function Hero() {
               <div className="container">
                 <div className="carousel-caption text-start">
                   <h2>Orhan Pamuk</h2>
-                  <p>Dogs do speak, but only to those who know how to listen</p>
-                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
+                  <p className="fst-italic">"Dogs do speak, but only to those who know how to listen."</p>
+                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>
@@ -46,8 +45,8 @@ function Hero() {
               <div className="container">
                 <div className="carousel-caption">
                   <h2>Rodges A. Caras</h2>
-                  <p>Dogs are not our whole life, but they make our lives whole.</p>
-                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
+                  <p className="fst-italic">"Dogs are not our whole life, but they make our lives whole."</p>
+                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>
@@ -56,8 +55,8 @@ function Hero() {
               <div className="container">
                 <div className="carousel-caption text-end">
                   <h2>One more for good measure.</h2>
-                  <p>Some representative placeholder content for the third slide of this carousel.</p>
-                  <p><Link className="btn btn-md btn-primary" to="#">Github</Link></p>
+                  <p className="fst-italic">"Some representative placeholder content for the third slide of this carousel."</p>
+                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>

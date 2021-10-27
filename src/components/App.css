@@ -23,3 +23,9 @@
 .fab {
   color: rgb(189, 181, 181);
 }
+
+.custom-img-about {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}

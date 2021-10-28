@@ -11,17 +11,27 @@ import Loading from './Loading';
 
 
 function Hero() {
+  const [error, setError] = useState(null);
   const [dogs, setDogs] = useState([]);
-  const [loding, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(()=> {
-    let api = "https://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
+    let api = "hhttps://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
     fetch(api)
       .then( res => res.json())
-      .then( result => setDogs(result));
-      setLoading(false);
-  },[]
-  );
+      .then( result => {
+        setLoading(true);
+        setDogs(result);
+      },
+      (err) => {
+        setError(err.message);
+        setLoading(true);
+        console.log(err);
+      }
+      );
+    },[]
+    );
+    console.log(dogs);
 
   return (
     <HeroSection>
@@ -78,10 +88,24 @@ function Hero() {
           <div className="container">
             <h1 className="text-center mb-5">Dogs Haven</h1>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg -4 g-3">
-              {loding?
-                dogs.map((dog) => (
-                  <Dog {...dog} key={dog.id} />
-                )): <div>Loading...</div>
+              {
+                error && (
+                  <div className="text-danger">
+                    <h3 className="text-center">{error}</h3>
+                  </div>
+                )
+              }
+              {
+                !loading && (
+                  <Loading/>
+                )
+              }
+              {
+                dogs && (
+                  dogs.map((dog) => (
+                    <Dog {...dog} key={dog.id} />
+                ))
+                )
               }
             </div>
           </div>

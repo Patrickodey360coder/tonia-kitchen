@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="container my-5 contact">
       <div className="row my-5">
-        <div className="col-md-6 my-5">
+        <div className="col-md-6 my-5 px-3">
           <h1 className="p5">About Us</h1>
           <p className="my-5 text-muted">At DogsHaven, we care for and admire dogs. On this platform, you can search for different breeds of dogs around the world. You can also find basic information about each breed of dog like, name, life span, purpose for breeding.</p>
 

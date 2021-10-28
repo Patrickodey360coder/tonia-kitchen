@@ -16,7 +16,7 @@ function Hero() {
   const [loading, setLoading] = useState(false);
 
   useEffect(()=> {
-    let api = "hhttps://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
+    let api = "https://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
     fetch(api)
       .then( res => res.json())
       .then( result => {
@@ -90,8 +90,8 @@ function Hero() {
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg -4 g-3">
               {
                 error && (
-                  <div className="text-danger">
-                    <h3 className="text-center">{error}</h3>
+                  <div className="container">
+                    <h3 className="text-center text-danger">{error}</h3>
                   </div>
                 )
               }

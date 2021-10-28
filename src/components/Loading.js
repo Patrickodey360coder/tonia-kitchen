@@ -1,11 +1,18 @@
 import React from 'react';
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
 
 function Loading() {
   return (
     <div className="container">
-      <h3 className="text-center">Loading...</h3>
+      <Loader className="text-center"
+        type="ThreeDots"
+        color="#0d6efd"
+        height={200}
+        width={200}
+        timeout={3000} //3 secs
+      />
     </div>
+
   )
 }
 

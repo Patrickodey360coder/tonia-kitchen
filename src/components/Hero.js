@@ -21,6 +21,7 @@ function Hero() {
       .then( res => res.json())
       .then( result => {
         setLoading(true);
+        setError(null);
         setDogs(result);
       },
       (err) => {

@@ -5,11 +5,11 @@ function Loading() {
   return (
     <div className="container">
       <Loader className="text-center"
-        type="ThreeDots"
+        type="Circles"
         color="#0d6efd"
         height={200}
         width={200}
-        timeout={3000} //3 secs
+        timeout={300000} //3 secs
       />
     </div>
 

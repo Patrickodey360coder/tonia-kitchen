@@ -1,39 +1,12 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { useEffect, useState } from 'react';
 import './App.css';
-import Dog from './Dog';
+import Food from './Food';
 import bg1 from '../images/bg1.jpg';
 import bg2 from '../images/bg2.jpg';
 import bg3 from '../images/bg3.jpg';
-import Loading from './Loading';
-
-
 
 function Hero() {
-  const [error, setError] = useState(null);
-  const [dogs, setDogs] = useState([]);
-  const [loading, setLoading] = useState(false);
-
-  useEffect(()=> {
-    let api = "https://api.thedogapi.com/v1/breeds?limit=12&page=100?Sapi_key=2c1958d5-790f-4725-87cc-7e59767ba77f";
-    fetch(api)
-      .then( res => res.json())
-      .then( result => {
-        setLoading(true);
-        setError(null);
-        setDogs(result);
-      },
-      (err) => {
-        setError(err.message);
-        setLoading(true);
-        console.log(err);
-      }
-      );
-    },[]
-    );
-    console.log(dogs);
-
   return (
     <HeroSection>
       <HeroWrapper>
@@ -89,25 +62,34 @@ function Hero() {
           <div className="container">
             <h1 className="text-center mb-5">Dogs Haven</h1>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg -4 g-3">
-              {
-                error && (
-                  <div className="container">
-                    <h3 className="text-center text-danger">{error}</h3>
-                  </div>
-                )
-              }
-              {
-                !loading && (
-                  <Loading/>
-                )
-              }
-              {
-                dogs && (
-                  dogs.map((dog) => (
-                    <Dog {...dog} key={dog.id} />
-                ))
-                )
-              }
+              <>
+                <Food name="Afang(Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" />
+                <Food name="Egusi (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+                <Food name="Okra (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+                <Food name="Vegetable (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" />
+                <Food name="White Soup (Goat & Assorted Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" />
+                <Food name="Banga Soup" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" />
+
+                <Food name="Tomato Stew (Goat & Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+                <Food name="Tomato Stew (Chicken)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N12,000" price1="N6,000" />
+                <Food name="Banga Stew (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N12,000" price1="N6,000" />
+                <Food name="Native Stew (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+
+                <Food name="Chicken Pepper Soup" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+                <Food name="Assoorted Pepper Soup" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="16,000" price2="12,000" price1="N6,000" />
+                <Food name="Goat Meat" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" />
+
+
+                <Food name="Jollof Rice" quantity1="1 Litre" price1="N5,500" />
+                <Food name="Coconut Rice" quantity1="1 Litre" price1="N5,500" />
+                <Food name="Fried Rice" quantity1="1 Litre" price1="N5,500" />
+
+                <Food name="Jollof Spaghetti" quantity1="1 Litre" price1="N5,500" />
+                <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" />
+
+
+
+              </>
             </div>
           </div>
         </div>

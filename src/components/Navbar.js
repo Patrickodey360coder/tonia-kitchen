@@ -11,9 +11,9 @@ const Navstyle = styled.nav`
 function Navs() {
   return (
     <Navstyle>
-       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
-        <Navbar.Brand href="/">DogsHaven</Navbar.Brand>
+        <Navbar.Brand href="/">Tonia's Kitchen</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

@@ -9,6 +9,7 @@ import afang from '../images/afang.jpg';
 import egusi from '../images/egusi.jpg';
 import okro from '../images/egusi.jpg';
 import vegetable from '../images/vegetable.jpg';
+import whitesoup from '../images/whitesoup.jpg';
 
 function Hero() {
   return (
@@ -71,7 +72,7 @@ function Hero() {
                 <Food name="Egusi (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={egusi}/>
                 <Food name="Okra (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={okro}/>
                 <Food name="Vegetable (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={vegetable}/>
-                <Food name="White Soup (Goat & Assorted Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={}/>
+                <Food name="White Soup (Goat & Assorted Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={whitesoup}/>
                 <Food name="Banga Soup" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={}/>
 
                 <Food name="Tomato Stew (Goat & Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={}/>

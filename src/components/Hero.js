@@ -20,6 +20,7 @@ import goatsoup from '../images/goatsoup';
 import jollofrice from '../images/jollofrice';
 import coconutrice from '../images/coconutrice';
 import friedrice from '../images/friedrice';
+import jollofspag from '../images/jollofspag';
 
 function Hero() {
   return (

@@ -16,6 +16,7 @@ import chickenstew from '../images/chickenstew.jpg';
 import nativestew from '../images/nativestew.jpg';
 import chickensoup from '../images/chickensoup.jpg';
 import beefsoup from '../images/beefsoup';
+import goatsoup from '../images/goatsoup';
 
 function Hero() {
   return (

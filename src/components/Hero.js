@@ -13,6 +13,7 @@ import whitesoup from '../images/whitesoup.jpg';
 import banga from '../images/banga.jpg';
 import beefstew from '../images/beefstew.jpg';
 import chickenstew from '../images/chickenstew.jpg';
+import nativestew from '../images/nativestew.jpg';
 
 function Hero() {
   return (
@@ -88,12 +89,12 @@ function Hero() {
                 <Food name="Goat Meat" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={goatsoup}/>
 
 
-                <Food name="Jollof Rice" quantity1="1 Litre" price1="N5,500" img={}/>
-                <Food name="Coconut Rice" quantity1="1 Litre" price1="N5,500" img={}/>
-                <Food name="Fried Rice" quantity1="1 Litre" price1="N5,500" img={}/>
+                <Food name="Jollof Rice" quantity1="1 Litre" price1="N5,500" img={jollofrice}/>
+                <Food name="Coconut Rice" quantity1="1 Litre" price1="N5,500" img={coconutrice}/>
+                <Food name="Fried Rice" quantity1="1 Litre" price1="N5,500" img={friedrice}/>
 
-                <Food name="Jollof Spaghetti" quantity1="1 Litre" price1="N5,500" img={}/>
-                <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" img={}/>
+                <Food name="Jollof Spaghetti" quantity1="1 Litre" price1="N5,500" img={jollofspag}/>
+                <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" img={spagstew}/>
               </>
             </div>
           </div>

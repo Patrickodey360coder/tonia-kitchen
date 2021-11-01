@@ -15,12 +15,13 @@ import beefstew from '../images/beefstew.jpg';
 import chickenstew from '../images/chickenstew.jpg';
 import nativestew from '../images/nativestew.jpg';
 import chickensoup from '../images/chickensoup.jpg';
-import beefsoup from '../images/beefsoup';
-import goatsoup from '../images/goatsoup';
-import jollofrice from '../images/jollofrice';
-import coconutrice from '../images/coconutrice';
-import friedrice from '../images/friedrice';
-import jollofspag from '../images/jollofspag';
+import beefsoup from '../images/beefsoup.jpg';
+import goatsoup from '../images/goatsoup.jpg';
+import jollofrice from '../images/jollofrice.jpg';
+import coconutrice from '../images/coconutrice.jpg';
+import friedrice from '../images/friedrice.jpg';
+import jollofspag from '../images/jollofspag.jpg';
+import spagstew from '../images/spagstew.jpg';
 
 function Hero() {
   return (

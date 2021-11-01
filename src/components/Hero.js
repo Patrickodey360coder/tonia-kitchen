@@ -14,6 +14,7 @@ import banga from '../images/banga.jpg';
 import beefstew from '../images/beefstew.jpg';
 import chickenstew from '../images/chickenstew.jpg';
 import nativestew from '../images/nativestew.jpg';
+import chickensoup from '../images/chickensoup.jpg';
 
 function Hero() {
   return (

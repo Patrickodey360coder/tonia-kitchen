@@ -19,6 +19,7 @@ import beefsoup from '../images/beefsoup';
 import goatsoup from '../images/goatsoup';
 import jollofrice from '../images/jollofrice';
 import coconutrice from '../images/coconutrice';
+import friedrice from '../images/friedrice';
 
 function Hero() {
   return (

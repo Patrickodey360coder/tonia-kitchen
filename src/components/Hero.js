@@ -6,6 +6,7 @@ import bg1 from '../images/bg1.jpg';
 import bg2 from '../images/bg2.jpg';
 import bg3 from '../images/bg3.jpg';
 import afang from '../images/afang.jpg';
+import egusi from '../images/egusi.jpg';
 
 function Hero() {
   return (
@@ -64,7 +65,7 @@ function Hero() {
             <h1 className="text-center mb-5">Dogs Haven</h1>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg -4 g-3">
               <>
-                <Food name="Afang(Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={afang}/>{/* 
+                <Food name="Afang(Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={afang}/>
                 <Food name="Egusi (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={}/>
                 <Food name="Okra (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={}/>
                 <Food name="Vegetable (Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={}/>
@@ -86,7 +87,7 @@ function Hero() {
                 <Food name="Fried Rice" quantity1="1 Litre" price1="N5,500" img={}/>
 
                 <Food name="Jollof Spaghetti" quantity1="1 Litre" price1="N5,500" img={}/>
-                <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" img={}/> */}
+                <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" img={}/>
               </>
             </div>
           </div>

@@ -86,9 +86,6 @@ function Hero() {
 
                 <Food name="Jollof Spaghetti" quantity1="1 Litre" price1="N5,500" />
                 <Food name="Spaghetti & Stew" quantity1="1 Litre" price1="N7,000" />
-
-
-
               </>
             </div>
           </div>
@@ -99,19 +96,14 @@ function Hero() {
 }
 
 const HeroSection = styled.section`
-  /* height: 100vh; */
-  /* max-height: 1100px; */
   position: relative;
   overflow: hidden;
-  /* background-color: red; */
+
 `;
 
 const HeroWrapper = styled.div`
   width: 100%;
   height: 100%;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   overflow: hidden;
   position: relative;
 `

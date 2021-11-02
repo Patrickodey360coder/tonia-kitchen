@@ -4,7 +4,6 @@ import './App.css';
 import Food from './Food';
 import bg1 from '../images/bg1.jpg';
 import bg2 from '../images/bg2.jpg';
-import bg3 from '../images/bg3.jpg';
 import afang from '../images/afang.jpg';
 import egusi from '../images/egusi.jpg';
 import okro from '../images/okro.jpg';
@@ -38,9 +37,9 @@ function Hero() {
               <img className="custom-img" src={bg1} width="100%" height="100%" alt="bg1"/>
               <div className="container">
                 <div className="carousel-caption text-start">
-                  <h2>Orhan Pamuk</h2>
-                  <p className="fst-italic">"Dogs do speak, but only to those who know how to listen."</p>
-                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
+                  <h2>Paul Prudhomme</h2>
+                  <p className="fst-italic">"You don't need a silver fork to eat good food."</p>
+                  <p><a className="btn btn-md bg-orange text-white" href="https://github.com/Patrickodey360coder/DogsHaven" target="_blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>
@@ -48,19 +47,19 @@ function Hero() {
               <img className="custom-img" src={bg2} width="100%" height="100%" alt="bg2"/>
               <div className="container">
                 <div className="carousel-caption">
-                  <h2>Rodges A. Caras</h2>
-                  <p className="fst-italic">"Dogs are not our whole life, but they make our lives whole."</p>
-                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
+                  <h2>James Beard</h2>
+                  <p className="fst-italic">"Food is our common ground, a universal experience."</p>
+                  <p><a className="btn btn-md bg-orange text-white" href="https://github.com/Patrickodey360coder/DogsHaven" target="_blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>
             <div className="carousel-item">
-              <img className="custom-img" src={bg3} alt="bg3"/>
+              <img className="custom-img" src={vegetable} alt="bg3"/>
               <div className="container">
                 <div className="carousel-caption text-end">
-                  <h2>One more for good measure.</h2>
-                  <p className="fst-italic">"Some representative placeholder content for the third slide of this carousel."</p>
-                  <p><a className="btn btn-md btn-primary" href="https://github.com/Patrickodey360coder/DogsHaven" target="blank" rel="noreferrer">Github</a></p>
+                  <h2>Julia Child.</h2>
+                  <p className="fst-italic">"People who love to eat are always the best people."</p>
+                  <p><a className="btn btn-md bg-orange text-white" href="https://github.com/Patrickodey360coder/DogsHaven" target="_blank" rel="noreferrer">Github</a></p>
                 </div>
               </div>
             </div>

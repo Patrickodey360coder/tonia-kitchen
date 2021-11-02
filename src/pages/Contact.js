@@ -3,12 +3,12 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-      <div className="py-5">
-        <h2 className="text-center orange">Contact us</h2>
+      <div className="py-5 bg-orange">
+        <h2 className="text-center text-white">Contact us</h2>
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-4 mx-auto">
+          <div className="col-md-5 mx-auto">
           <form className="py-5 mb-5">
             <div className="mb-3">
               <label for="name" className="form-label">Name</label>

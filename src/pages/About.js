@@ -1,5 +1,5 @@
 import React from 'react'
-import bg2 from '../images/bg2.jpg';
+import friedrice from '../images/friedrice.jpg';
 
 function About() {
   return (
@@ -14,7 +14,7 @@ function About() {
           </p>
         </div>
         <div className="col-md-6">
-          <img className="custom-img-about" src={bg2} alt={bg2}/>
+          <img className="custom-img-about" src={friedrice} alt={friedrice}/>
         </div>
       </div>
     </div>

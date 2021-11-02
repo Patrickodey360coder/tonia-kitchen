@@ -13,7 +13,7 @@ function Navs() {
     <Navstyle>
        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
-        <Navbar.Brand href="/" className="orange">Tonia's Kitchen</Navbar.Brand>
+        <Navbar.Brand href="/" className="orange"><strong>Tonia's Kitchen</strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

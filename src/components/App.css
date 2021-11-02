@@ -17,8 +17,8 @@
 }
 
 .custom-img {
-  background-color: red;
   max-height: 350px;
+  height: 320px;
   width: 100%;
   object-fit: cover;
 
@@ -49,3 +49,10 @@
 .bg-orange {
   background-color: #e67b10!important;
 }
+
+.card {
+  cursor: pointer;
+}
+/* .card:hover {
+  transform: translatey(-100%);
+} */

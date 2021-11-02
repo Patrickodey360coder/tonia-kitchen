@@ -37,3 +37,11 @@
 .contact p {
   font-size: 1.2rem;
 }
+
+.bg {
+  background-color: rgb(238, 231, 231);
+}
+
+.orange {
+  color: #e67b10!important;
+}

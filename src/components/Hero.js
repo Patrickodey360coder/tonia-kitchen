@@ -7,7 +7,7 @@ import bg2 from '../images/bg2.jpg';
 import bg3 from '../images/bg3.jpg';
 import afang from '../images/afang.jpg';
 import egusi from '../images/egusi.jpg';
-import okro from '../images/egusi.jpg';
+import okro from '../images/okro.jpg';
 import vegetable from '../images/vegetable.jpg';
 import whitesoup from '../images/whitesoup.jpg';
 import banga from '../images/banga.jpg';
@@ -75,9 +75,9 @@ function Hero() {
           </button>
         </div>
 
-        <div className="album py-5 bg-light">
+        <div className="album py-5 bg">
           <div className="container">
-            <h1 className="text-center mb-5">Dogs Haven</h1>
+            <h2 className="text-center mb-5 orange">Delicacies</h2>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg -4 g-3">
               <>
                 <Food name="Afang(Beef or Goat Meat)" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N16,000" price2="N13,000" price1="N6,000" img={afang}/>
@@ -115,7 +115,7 @@ function Hero() {
 const HeroSection = styled.section`
   position: relative;
   overflow: hidden;
-
+  background-color: red!important;
 `;
 
 const HeroWrapper = styled.div`

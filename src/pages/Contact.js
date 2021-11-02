@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <div className="py-5">
-        <h2 className="text-center orange">Contact page</h2>
+        <h2 className="text-center orange">Contact us</h2>
       </div>
       <div className="container">
         <div className="row">
@@ -21,7 +21,7 @@ function Contact() {
             <div className="mb-3">
               <textarea className="form-control" placeholder="Leave a message here" id="floatingTextarea2"></textarea>
             </div>
-            <button type="submit" className="btn bg-orange">Submit</button>
+            <button type="submit" className="btn bg-orange text-white">Submit</button>
           </form>
           </div>
         </div>

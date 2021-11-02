@@ -95,7 +95,6 @@ function Hero() {
                 <Food name="Assorted Pepper Soup" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="16,000" price2="12,000" price1="N6,000" img={beefsoup}/>
                 <Food name="Goat Meat" quantity1="1 Litre" quantity2="3 Litres" quantity3="5 Litres" price3="N15,000" price2="N10,000" price1="N5,000" img={goatsoup}/>
 
-
                 <Food name="Jollof Rice" quantity1="1 Litre" price1="N5,500" img={jollofrice}/>
                 <Food name="Coconut Rice" quantity1="1 Litre" price1="N5,500" img={coconutrice}/>
                 <Food name="Fried Rice" quantity1="1 Litre" price1="N5,500" img={friedrice}/>

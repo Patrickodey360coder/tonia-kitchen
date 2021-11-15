@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from './components/Navbar';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Globalstyle from "./Globalstyle";
 import Hero from './components/Hero';
 import About from './pages/About';
@@ -16,13 +16,13 @@ function App() {
         <Nav/>
         <Router>
           <Switch>
-            <Route exact path="/https://github.com/Patrickodey360coder/tonia-kitchen/">
+            <Route exact path="/tonia-kitchen/">
               <Hero/>
             </Route>
-            <Route exact path="/https://github.com/Patrickodey360coder/tonia-kitchen/about">
+            <Route exact path="/tonia-kitchen/about">
               <About/>
             </Route>
-            <Route exact path="https://github.com/Patrickodey360coder/tonia-kitchen/contact">
+            <Route exact path="/tonia-kitchen/contact">
               <Contact/>
             </Route>
             <Route>

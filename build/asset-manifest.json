@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tonia-kitchen/static/css/main.ff638c7a.chunk.css",
-    "main.js": "/tonia-kitchen/static/js/main.c5fe5cd4.chunk.js",
-    "main.js.map": "/tonia-kitchen/static/js/main.c5fe5cd4.chunk.js.map",
+    "main.js": "/tonia-kitchen/static/js/main.b21e52cf.chunk.js",
+    "main.js.map": "/tonia-kitchen/static/js/main.b21e52cf.chunk.js.map",
     "runtime-main.js": "/tonia-kitchen/static/js/runtime-main.155f1d6d.js",
     "runtime-main.js.map": "/tonia-kitchen/static/js/runtime-main.155f1d6d.js.map",
-    "static/js/2.1aed073a.chunk.js": "/tonia-kitchen/static/js/2.1aed073a.chunk.js",
-    "static/js/2.1aed073a.chunk.js.map": "/tonia-kitchen/static/js/2.1aed073a.chunk.js.map",
+    "static/js/2.4d0ebd69.chunk.js": "/tonia-kitchen/static/js/2.4d0ebd69.chunk.js",
+    "static/js/2.4d0ebd69.chunk.js.map": "/tonia-kitchen/static/js/2.4d0ebd69.chunk.js.map",
     "index.html": "/tonia-kitchen/index.html",
     "static/css/main.ff638c7a.chunk.css.map": "/tonia-kitchen/static/css/main.ff638c7a.chunk.css.map",
-    "static/js/2.1aed073a.chunk.js.LICENSE.txt": "/tonia-kitchen/static/js/2.1aed073a.chunk.js.LICENSE.txt",
+    "static/js/2.4d0ebd69.chunk.js.LICENSE.txt": "/tonia-kitchen/static/js/2.4d0ebd69.chunk.js.LICENSE.txt",
     "static/media/afang.6251a858.jpg": "/tonia-kitchen/static/media/afang.6251a858.jpg",
     "static/media/banga.fcd61a1a.jpg": "/tonia-kitchen/static/media/banga.fcd61a1a.jpg",
     "static/media/beefsoup.cc92658e.jpg": "/tonia-kitchen/static/media/beefsoup.cc92658e.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.155f1d6d.js",
-    "static/js/2.1aed073a.chunk.js",
+    "static/js/2.4d0ebd69.chunk.js",
     "static/css/main.ff638c7a.chunk.css",
-    "static/js/main.c5fe5cd4.chunk.js"
+    "static/js/main.b21e52cf.chunk.js"
   ]
 }

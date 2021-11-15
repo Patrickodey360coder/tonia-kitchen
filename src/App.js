@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from './components/Navbar';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Globalstyle from "./Globalstyle";
 import Hero from './components/Hero';
 import About from './pages/About';
@@ -22,7 +22,7 @@ function App() {
             <Route exact path="/about">
               <About/>
             </Route>
-            <Route exact path="/contact">
+            <Route path="/contact">
               <Contact/>
             </Route>
             <Route>

@@ -16,7 +16,7 @@ function App() {
         <Nav/>
         <Router>
           <Switch>
-            <Route exact path="/tonia-kitchen/">
+            <Route exact path="/tonia-kitchen">
               <Hero/>
             </Route>
             <Route exact path="/about">

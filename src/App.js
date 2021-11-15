@@ -16,7 +16,7 @@ function App() {
         <Nav/>
         <Router>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/https://github.com/Patrickodey360coder">
               <Hero/>
             </Route>
             <Route exact path="/about">

@@ -14,7 +14,7 @@ function App() {
     <>
       <Globalstyle>
         <Nav/>
-        <Router basename={`${process.env.PUBLIC_URL}/`}>
+        <Router>
           <Switch>
             <Route exact path="/">
               <Hero/>

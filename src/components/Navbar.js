@@ -17,7 +17,7 @@ function Navs() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/">Homes</Nav.Link>
+            <Nav.Link href="/tonia-kitchen">Homes</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>

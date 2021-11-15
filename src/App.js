@@ -19,10 +19,10 @@ function App() {
             <Route exact path="/tonia-kitchen">
               <Hero/>
             </Route>
-            <Route exact path="/tonia-kitchen/about">
+            <Route path="/tonia-kitchen/about">
               <About/>
             </Route>
-            <Route exact path="/tonia-kitchen/contact">
+            <Route path="/tonia-kitchen/contact">
               <Contact/>
             </Route>
             <Route>

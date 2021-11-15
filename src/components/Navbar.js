@@ -18,8 +18,8 @@ function Navs() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/tonia-kitchen">Homes</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/tonia-kitchen/about">About</Nav.Link>
+            <Nav.Link href="/tonia-kitchen/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>

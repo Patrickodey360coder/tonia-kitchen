@@ -16,13 +16,13 @@ function App() {
         <Nav/>
         <Router>
           <Switch>
-            <Route exact path="/https://github.com/Patrickodey360coder">
+            <Route exact path="/https://github.com/Patrickodey360coder/tonia-kitchen/">
               <Hero/>
             </Route>
-            <Route exact path="/about">
+            <Route exact path="/https://github.com/Patrickodey360coder/tonia-kitchen/about">
               <About/>
             </Route>
-            <Route path="/contact">
+            <Route path="https://github.com/Patrickodey360coder/tonia-kitchen/contact">
               <Contact/>
             </Route>
             <Route>

@@ -2,8 +2,8 @@ import React from 'react'
 
 function NoMatch() {
   return (
-    <div>
-      Page NOt Found
+    <div className="container">
+      <h1>Page NOt Found</h1>
     </div>
   )
 }

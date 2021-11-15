@@ -14,7 +14,7 @@ function App() {
     <>
       <Globalstyle>
         <Nav/>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/tonia-kitchen">
               <Hero/>

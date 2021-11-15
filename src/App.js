@@ -16,7 +16,7 @@ function App() {
         <Nav/>
         <Router basename={`${process.env.PUBLIC_URL}/`}>
           <Switch>
-            <Route exact path="/tonia-kitchen">
+            <Route exact path="/">
               <Hero/>
             </Route>
             <Route exact path="/about">

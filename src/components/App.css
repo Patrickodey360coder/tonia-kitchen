@@ -1,3 +1,11 @@
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus-within {
+  border-radius: 50%;
+  color: white;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;

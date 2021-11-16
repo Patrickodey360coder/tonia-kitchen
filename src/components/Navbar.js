@@ -1,30 +1,30 @@
-import React from 'react'
-import styled from 'styled-components'
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+// import React from 'react'
+// import styled from 'styled-components'
+import { Nav, Navbar} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 
-const Navstyle = styled.nav`
-  height:50px;
-`;
 
 function Navs() {
   return (
-    <Navstyle>
        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
         <Navbar.Brand href="/" className="orange"><strong>Tonia's Kitchen</strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/tonia-kitchen">Homes</Nav.Link>
-            <Nav.Link href="/tonia-kitchen/#/about">About</Nav.Link>
-            <Nav.Link href="/tonia-kitchen/#/contact">Contact</Nav.Link>
+            <Nav.Item>
+              <Nav.Link eventKey="1" href="/tonia-kitchen">Meals</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="2" href="/tonia-kitchen/#/about">About</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="3" href="/tonia-kitchen/#/contact">Contact</Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
         </Container>
       </Navbar> 
-    </Navstyle> 
   )
 }
 
